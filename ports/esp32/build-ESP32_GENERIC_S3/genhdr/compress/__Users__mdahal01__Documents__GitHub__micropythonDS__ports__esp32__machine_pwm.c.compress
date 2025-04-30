@@ -1,0 +1,15 @@
+PWM not supported on Pin(%d)
+unable to query source clock frequency %d
+unreachable frequency %d
+PWM inactive
+duty_u16 must be from 0 to %d
+duty must be from 0 to %u
+duty_ns must be from 0 to %d ns
+out of PWM channels:%d
+only one of parameters 'duty', 'duty_u16' or 'duty_ns' is allowed
+frequency must be from 1Hz to 40MHz
+out of PWM timers:%d
+out of PWM channels:%d
+frequency must be from 1Hz to 40MHz
+out of PWM timers:%d
+failed to bind timer to channel

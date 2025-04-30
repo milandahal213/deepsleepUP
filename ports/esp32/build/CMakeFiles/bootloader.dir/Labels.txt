@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build/CMakeFiles/bootloader
+/Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build/CMakeFiles/bootloader.rule
+/Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build/CMakeFiles/bootloader-complete.rule
+/Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

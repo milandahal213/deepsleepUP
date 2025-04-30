@@ -1,0 +1,7 @@
+-- Found Git: /usr/bin/git (found version "2.39.5 (Apple Git-154)")
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- The ASM compiler identification is unknown
+-- Found assembler: riscv32-esp-elf-gcc
+-- Warning: Did not find file Compiler/-ASM
+-- Configuring incomplete, errors occurred!

@@ -1,0 +1,259 @@
+[1/248] Performing build step for 'bootloader'
+[1/1] cd /Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build-ESP32_GENERIC_C6/bootloader/esp-idf/esptool_py && /Users/mdahal01/.espressif/python_env/idf5.2_py3.9_env/bin/python /Users/mdahal01/Documents/GitHub/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build-ESP32_GENERIC_C6/bootloader/bootloader.bin
+Bootloader binary size 0x4690 bytes. 0x3970 bytes (45%) free.
+[2/248] No install step for 'bootloader'
+[3/248] Completed 'bootloader'
+[4/248] cd /Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build-ESP32_GENERIC_C6/esp-idf/main && /opt/homebrew/bin/cmake -E make_directory /Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build-ESP32_GENERIC_C6/genhdr && /Users/mdahal01/.espressif/python_env/idf5.2_py3.9_env/bin/python /Users/mdahal01/Documents/GitHub/micropythonDS/py/makeversionhdr.py /Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build-ESP32_GENERIC_C6/genhdr/mpversion.h
+GEN /Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build-ESP32_GENERIC_C6/genhdr/mpversion.h
+[5/248] Generating ../../pins.c, ../../genhdr/pins.h
+[6/248] Generating ../../genhdr/qstr.i.last
+[7/248] Generating ../../genhdr/root_pointers.split
+[8/248] Generating ../../genhdr/qstr.split
+[9/248] Generating ../../genhdr/root_pointers.collected
+Root pointer registrations not updated
+[10/247] Generating ../../genhdr/qstrdefs.collected.h
+QSTR updated
+[11/247] Generating ../../genhdr/qstrdefs.preprocessed.h
+[12/247] Generating ../../genhdr/qstrdefs.generated.h
+[13/247] cd /Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build-ESP32_GENERIC_C6/esp-idf/main && /Users/mdahal01/.espressif/python_env/idf5.2_py3.9_env/bin/python /Users/mdahal01/Documents/GitHub/micropythonDS/tools/makemanifest.py -o /Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build-ESP32_GENERIC_C6/frozen_content.c -v BOARD_DIR=/Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/boards/ESP32_GENERIC_C6 -v MPY_DIR=/Users/mdahal01/Documents/GitHub/micropythonDS -v MPY_LIB_DIR=/Users/mdahal01/Documents/GitHub/micropythonDS/lib/micropython-lib -v PORT_DIR=/Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32 -b /Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build-ESP32_GENERIC_C6 -f-march=rv32imc --mpy-tool-flags= /Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/boards/manifest.py
+[14/247] Generating ../../genhdr/compressed.split
+[15/247] Generating ../../genhdr/moduledefs.split
+[16/247] Generating ../../genhdr/compressed.collected
+Compressed data updated
+[17/247] Generating ../../genhdr/moduledefs.collected
+Module registrations not updated
+[18/246] Generating ../../genhdr/compressed.data.h
+[19/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/asmxtensa.c.obj
+[20/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/cstack.c.obj
+[21/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/emitcommon.c.obj
+[22/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/asmbase.c.obj
+[23/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/builtinevex.c.obj
+[24/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/builtinhelp.c.obj
+[25/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/emitglue.c.obj
+[26/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/argcheck.c.obj
+[27/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/builtinimport.c.obj
+[28/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/binary.c.obj
+[29/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/bc.c.obj
+[30/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/emitinlinerv32.c.obj
+[31/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/emitinlinextensa.c.obj
+[32/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/emitinlinethumb.c.obj
+[33/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/frozenmod.c.obj
+[34/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/malloc.c.obj
+[35/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/emitnx86.c.obj
+[36/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/asmrv32.c.obj
+[37/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/modarray.c.obj
+[38/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/emitbc.c.obj
+[39/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/formatfloat.c.obj
+[40/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/modcmath.c.obj
+[41/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/modcollections.c.obj
+[42/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/map.c.obj
+[43/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/modgc.c.obj
+[44/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/modio.c.obj
+[45/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/modmicropython.c.obj
+[46/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/modbuiltins.c.obj
+[47/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/modsys.c.obj
+[48/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/gc.c.obj
+[49/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/modstruct.c.obj
+[50/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/lexer.c.obj
+[51/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/modmath.c.obj
+[52/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/moderrno.c.obj
+[53/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/modthread.c.obj
+[54/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/mpstate.c.obj
+[55/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/mpprint.c.obj
+[56/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/nlr.c.obj
+[57/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/nlrmips.c.obj
+[58/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/nativeglue.c.obj
+[59/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/nlrpowerpc.c.obj
+[60/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/nlrrv32.c.obj
+[61/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/nlrrv64.c.obj
+[62/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/nlrx64.c.obj
+[63/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/nlrthumb.c.obj
+[64/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/nlrsetjmp.c.obj
+[65/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/nlrx86.c.obj
+[66/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/nlrxtensa.c.obj
+[67/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objattrtuple.c.obj
+[68/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objbool.c.obj
+[69/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objcode.c.obj
+[70/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objcell.c.obj
+[71/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objclosure.c.obj
+[72/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/compile.c.obj
+[73/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objdeque.c.obj
+[74/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objboundmeth.c.obj
+[75/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/mpz.c.obj
+[76/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objarray.c.obj
+[77/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objenumerate.c.obj
+[78/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/obj.c.obj
+[79/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objcomplex.c.obj
+[80/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/emitnrv32.c.obj
+[81/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objfilter.c.obj
+[82/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objgetitemiter.c.obj
+[83/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objint_longlong.c.obj
+[84/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objfloat.c.obj
+[85/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objdict.c.obj
+[86/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objexcept.c.obj
+[87/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objfun.c.obj
+[88/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objmap.c.obj
+[89/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objmodule.c.obj
+[90/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objgenerator.c.obj
+[91/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objint.c.obj
+[92/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objnone.c.obj
+[93/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objnamedtuple.c.obj
+[94/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objint_mpz.c.obj
+[95/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objproperty.c.obj
+[96/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objpolyiter.c.obj
+[97/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objreversed.c.obj
+[98/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objlist.c.obj
+[99/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objobject.c.obj
+[100/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objrange.c.obj
+[101/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objringio.c.obj
+[102/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objsingleton.c.obj
+[103/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objstringio.c.obj
+[104/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objslice.c.obj
+[105/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/opmethods.c.obj
+[106/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/pairheap.c.obj
+[107/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objstrunicode.c.obj
+[108/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objzip.c.obj
+[109/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objtuple.c.obj
+[110/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/parsenumbase.c.obj
+[111/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/pystack.c.obj
+[112/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objset.c.obj
+[113/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/profile.c.obj
+[114/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/parsenum.c.obj
+[115/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/persistentcode.c.obj
+[116/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/reader.c.obj
+[117/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objtype.c.obj
+[118/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/parse.c.obj
+[119/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/qstr.c.obj
+[120/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/runtime_utils.c.obj
+[121/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/scheduler.c.obj
+[122/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/repl.c.obj
+[123/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/scope.c.obj
+[124/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/showbc.c.obj
+[125/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/smallint.c.obj
+[126/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/stackctrl.c.obj
+[127/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/sequence.c.obj
+[128/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/shared/libc/printf.c.obj
+[129/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/unicode.c.obj
+[130/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/shared/libc/abort_.c.obj
+[131/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/warning.c.obj
+[132/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/btstack/modbluetooth_btstack.c.obj
+[133/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/stream.c.obj
+[134/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/vstr.c.obj
+[135/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/machine_bitstream.c.obj
+[136/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/runtime.c.obj
+[137/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/machine_i2s.c.obj
+[138/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/machine_adc_block.c.obj
+[139/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/machine_adc.c.obj
+[140/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/machine_pulse.c.obj
+[141/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/machine_signal.c.obj
+[142/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/objstr.c.obj
+[143/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/machine_mem.c.obj
+[144/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modlwip.c.obj
+[145/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/machine_wdt.c.obj
+[146/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/machine_i2c.c.obj
+[147/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modmarshal.c.obj
+[148/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/machine_spi.c.obj
+[149/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modnetwork.c.obj
+[150/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/machine_pwm.c.obj
+[151/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modmachine.c.obj
+[152/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modonewire.c.obj
+[153/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/py/vm.c.obj
+[154/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modasyncio.c.obj
+[155/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/machine_uart.c.obj
+[156/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modbinascii.c.obj
+[157/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modcryptolib.c.obj
+[158/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modplatform.c.obj
+[159/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modheapq.c.obj
+[160/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modos.c.obj
+[161/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modframebuf.c.obj
+[162/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/moductypes.c.obj
+[163/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modrandom.c.obj
+[164/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modhashlib.c.obj
+[165/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modjson.c.obj
+[166/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modsocket.c.obj
+[167/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modbluetooth.c.obj
+[168/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modselect.c.obj
+[169/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modtls_axtls.c.obj
+[170/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modvfs.c.obj
+[171/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/moddeflate.c.obj
+[172/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/network_ninaw10.c.obj
+[173/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/network_wiznet5k.c.obj
+[174/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/network_ppp_lwip.c.obj
+[175/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modwebsocket.c.obj
+[176/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modre.c.obj
+[177/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/network_lwip.c.obj
+[178/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modtime.c.obj
+[179/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modwebrepl.c.obj
+[180/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/network_cyw43.c.obj
+[181/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/os_dupterm.c.obj
+[182/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/vfs.c.obj
+[183/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/vfs_blockdev.c.obj
+[184/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/vfs_rom_file.c.obj
+[185/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/vfs_posix.c.obj
+[186/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/virtpin.c.obj
+[187/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/vfs_fat.c.obj
+[188/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modtls_mbedtls.c.obj
+[189/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/vfs_rom.c.obj
+[190/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/vfs_fat_diskio.c.obj
+[191/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/vfs_reader.c.obj
+[192/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/vfs_posix_file.c.obj
+[193/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/vfs_fat_file.c.obj
+[194/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/shared/runtime/interrupt_char.c.obj
+[195/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/modbtree.c.obj
+[196/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/shared/runtime/stdout_helpers.c.obj
+[197/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/shared/readline/readline.c.obj
+[198/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/vfs_lfs.c.obj
+[199/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/shared/netutils/netutils.c.obj
+[200/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/shared/runtime/sys_stdio_mphal.c.obj
+[201/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/shared/runtime/gchelper_native.c.obj
+[202/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/shared/runtime/mpirq.c.obj
+[203/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/shared/timeutils/timeutils.c.obj
+[204/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/drivers/dht/dht.c.obj
+[205/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/drivers/bus/softspi.c.obj
+[206/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/shared/runtime/pyexec.c.obj
+[207/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/panichandler.c.obj
+[208/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/usb.c.obj
+[209/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/help.c.obj
+[210/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/adc.c.obj
+[211/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/gccollect.c.obj
+[212/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Users/mdahal01/Documents/GitHub/micropythonDS/extmod/nimble/modbluetooth_nimble.c.obj
+[213/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/machine_touchpad.c.obj
+[214/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/usb_serial_jtag.c.obj
+[215/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/uart.c.obj
+[216/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/machine_bitstream.c.obj
+[217/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/mphalport.c.obj
+[218/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/main.c.obj
+[219/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/machine_timer.c.obj
+[220/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/machine_dac.c.obj
+[221/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/machine_pin.c.obj
+[222/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/mpnimbleport.c.obj
+[223/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/esp32_ulp.c.obj
+[224/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/esp32_nvs.c.obj
+[225/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/modesp.c.obj
+[226/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/machine_i2c.c.obj
+[227/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/esp32_partition.c.obj
+[228/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/network_lan.c.obj
+[229/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/modesp32.c.obj
+[230/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/esp32_rmt.c.obj
+[231/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/network_common.c.obj
+[232/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/network_ppp.c.obj
+[233/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/machine_hw_spi.c.obj
+[234/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/mpthreadport.c.obj
+[235/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/pins.c.obj
+[236/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/network_wlan.c.obj
+[237/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/machine_rtc.c.obj
+[238/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/modsocket.c.obj
+[239/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/machine_sdcard.c.obj
+[240/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/frozen_content.c.obj
+[241/246] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/modespnow.c.obj
+[242/246] Linking C static library esp-idf/main/libmain.a
+[243/246] Generating ld/sections.ld
+[244/246] Linking CXX executable micropython.elf
+[245/246] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32c6 image...
+Merged 1 ELF section
+Successfully created esp32c6 image.
+Generated /Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build-ESP32_GENERIC_C6/micropython.bin
+[246/246] cd /Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build-ESP32_GENERIC_C6/esp-idf/esptool_py && /Users/mdahal01/.espressif/python_env/idf5.2_py3.9_env/bin/python /Users/mdahal01/Documents/GitHub/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build-ESP32_GENERIC_C6/partition_table/partition-table.bin /Users/mdahal01/Documents/GitHub/micropythonDS/ports/esp32/build-ESP32_GENERIC_C6/micropython.bin
+micropython.bin binary size 0x1d6740 bytes. Smallest app partition is 0x1f0000 bytes. 0x198c0 bytes (5%) free.

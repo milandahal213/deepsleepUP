@@ -1,0 +1,8 @@
+channel used by bitstream
+clock_div must be between 1 and 255
+tx_carrier frequency must be >0
+tx_carrier duty must be 0..100
+duration and data must have same length
+No pulses
+Too many pulses for loop
+invalid channel

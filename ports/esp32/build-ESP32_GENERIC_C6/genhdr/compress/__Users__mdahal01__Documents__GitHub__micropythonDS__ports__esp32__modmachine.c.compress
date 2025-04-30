@@ -1,0 +1,2 @@
+frequency must be 20MHz, 40MHz, 80Mhz or 160MHz
+esp_sleep_enable_ulp_wakeup() failed
